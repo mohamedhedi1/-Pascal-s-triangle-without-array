@@ -1,0 +1,29 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<math.h>
+int fact (int f);
+int num(int n,int p);
+void afficher();
+int main(){
+afficher();
+}
+int fact(int f)
+{
+int fa=1,i;
+for(i=1;i<=f;i++)
+fa=fa*i;
+return fa;
+}
+int num(int n,int p){
+return (float)fact(n)/((float)fact(p)*fact(n-p));
+}
+void afficher()
+{
+int i,j;
+for(i=0;i<19;i++)
+{
+for(j=0;j<=i;j++)
+printf("%4d",num(i,j));
+printf("\n");
+}
+}
