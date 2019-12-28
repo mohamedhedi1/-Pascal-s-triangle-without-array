@@ -1,5 +1,25 @@
 # -Pascal-s-triangle-without-array
 Pascal's triangle in both iterative and recursive methods without array.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 iterative method:
 #include<stdio.h>
 #include<stdlib.h>
